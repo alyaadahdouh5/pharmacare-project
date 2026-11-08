@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expiry Tracker - PharmaCare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <div class="alog">
+                <ul>
+                    <li class="logo">
+                        <img src="images/home/logooo.jpg" alt="Pharmacy Logo">
+                    </li>
+                    <li class="page-title">
+                        <h2>Expiry Tracker</h2>
+                    </li>
+                </ul>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="inventory.html">Medicine Inventory</a></li>
+                <li><a href="expiry.html" class="active">Expiry Tracker</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="content">
+            <div class="page-header">
+                <h1>⚠️ Expired Medicines Alert</h1>
+                <p>Critical: Medicines that have expired and need immediate removal</p>
+            </div>
+
+            <div class="expiry-warning">
+                <div class="expiry-warning-title">
+                    🚨 IMMEDIATE ACTION REQUIRED 🚨
+                </div>
+                <p class="expiry-warning-text">
+                    These medicines have passed their expiry date. They must be removed from shelves immediately to ensure patient safety.
+                </p>
+            </div>
+
+            <div class="expiry-list-container">
+                <div class="expiry-list-header">
+                    <div>Medicine Name</div>
+                    <div>Category</div>
+                    <div>Status</div>
+                    <div>Expiry Date</div>
+                </div>
+                <ul class="expiry-list">
+                    <li class="expiry-item">
+                        <div class="expiry-name">Carelyte</div>
+                        <div class="expiry-category">Gastrointestinal</div>
+                        <div><span class="expiry-status-badge">❌ EXPIRED</span></div>
+                        <div class="expiry-date">15-12-2023</div>
+                    </li>
+                    <li class="expiry-item">
+                        <div class="expiry-name">Bronchicum</div>
+                        <div class="expiry-category">Cough Expectorant</div>
+                        <div><span class="expiry-status-badge">❌ EXPIRED</span></div>
+                        <div class="expiry-date">05-07-2023</div>
+                    </li>
+                    <li class="expiry-item">
+                        <div class="expiry-name">Disprelone OD</div>
+                        <div class="expiry-category">Hormonal</div>
+                        <div><span class="expiry-status-badge">❌ EXPIRED</span></div>
+                        <div class="expiry-date">30-11-2023</div>
+                    </li>
+                    <li class="expiry-item">
+                        <div class="expiry-name">Abimol Extra</div>
+                        <div class="expiry-category">Pain Relief</div>
+                        <div><span class="expiry-status-badge">❌ EXPIRED</span></div>
+                        <div class="expiry-date">31-12-2023</div>
+                    </li>
+                    <li class="expiry-item">
+                        <div class="expiry-name">Omega-3</div>
+                        <div class="expiry-category">Vitamin</div>
+                        <div><span class="expiry-status-badge">❌ EXPIRED</span></div>
+                        <div class="expiry-date">10-11-2023</div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="summary-section">
+                <div class="summary-title">Expiry Summary</div>
+                <div class="summary-content">
+                    <div class="summary-item">
+                        <div class="summary-label">Total Expired</div>
+                        <div class="summary-value expired-value">5</div>
+                    </div>
+                    <div class="summary-item">
+                        <div class="summary-label">Expired This Month</div>
+                        <div class="summary-value expired-value">3</div>
+                    </div>
+                    <div class="summary-item">
+                        <div class="summary-label">Days Overdue</div>
+                        <div class="summary-value expired-value">45+</div>
+                    </div>
+                    <div class="summary-item">
+                        <div class="summary-label">Action Required</div>
+                        <div class="summary-value expired-value">IMMEDIATE</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>PharmaCare Connect © 2024</p>
+            <p>Al-Rasheed Pharmacy - Expiry Tracking System</p>
+        </div>
+    </footer>
+</body>
+</html>
