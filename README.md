@@ -36,9 +36,7 @@ This project is a pure **Front-End** prototype. No JavaScript, frameworks, or ba
 
 ---
 
-## 🚀 Live Demo | العرض المباشر
 
-🔗 **[View Live Demo | عرض المشروع مباشرة](https://alyaadahdoud5.github.io/pharmacare-project/)**
 
 ---
 
